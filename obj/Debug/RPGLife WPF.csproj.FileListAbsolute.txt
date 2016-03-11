@@ -1,0 +1,17 @@
+D:\VSProj\RPGLife WPF\bin\Debug\RPGLife WPF.exe.config
+D:\VSProj\RPGLife WPF\bin\Debug\RPGLife WPF.exe
+D:\VSProj\RPGLife WPF\bin\Debug\RPGLife WPF.pdb
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF.csprojResolveAssemblyReference.cache
+D:\VSProj\RPGLife WPF\obj\Debug\MainWindow.g.cs
+D:\VSProj\RPGLife WPF\obj\Debug\App.g.cs
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF_MarkupCompile.cache
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF_MarkupCompile.lref
+D:\VSProj\RPGLife WPF\obj\Debug\MainWindow.baml
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF.g.resources
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife_WPF.Properties.Resources.resources
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF.csproj.GenerateResource.Cache
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF.exe
+D:\VSProj\RPGLife WPF\obj\Debug\RPGLife WPF.pdb
+C:\Users\Adele\Documents\GitHubVisualStudio\RPG-Life-Counter\bin\Debug\RPGLife WPF.exe.config
+C:\Users\Adele\Documents\GitHubVisualStudio\RPG-Life-Counter\obj\Debug\RPGLife WPF.exe
+C:\Users\Adele\Documents\GitHubVisualStudio\RPG-Life-Counter\obj\Debug\RPGLife WPF.pdb
