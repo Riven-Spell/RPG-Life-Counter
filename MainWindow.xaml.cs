@@ -41,7 +41,6 @@ namespace RPGLife_WPF
             }
             catch
             {
-                Console.WriteLine("hey hey hey, I'm a fucktard compiler!");
                 x = 1;
             }
             double y = double.Parse(HPAtBox.Text);
@@ -178,6 +177,10 @@ namespace RPGLife_WPF
                 else if (int.Parse(MPAtBox.Text) < 0)
                 {
                     MPAtBox.Text = "0";
+                }
+                if (int.Parse(MPMaxBox.Text) <= 0)
+                {
+                    MPMaxBox.Text = "1";
                 }
             }
             catch
