@@ -45,7 +45,7 @@ namespace RPGLife_WPF
             }
             double y = double.Parse(HPAtBox.Text);
             Thickness newM = HPSlider.Margin;
-            newM.Right = 831 - (831 * (y/x));
+            newM.Right = 410 - (410 * (y/x));
             if (double.IsNaN(newM.Right))
             {
                 newM.Right = 1;
@@ -66,7 +66,7 @@ namespace RPGLife_WPF
             }
             double y = double.Parse(MPAtBox.Text);
             Thickness newM = MPSlider.Margin;
-            newM.Right = 831 - (831 * (y / x));
+            newM.Right = (350 - (350 * (y / x))) + 65;
             MPSlider.Margin = newM;
             MPSlider.UpdateLayout();
         }
@@ -82,7 +82,7 @@ namespace RPGLife_WPF
             {
                 LevelBox.Text = "1";
             }
-            LevelLabel.Content = "Lv. " + LevelBox.Text;
+            LevelLabel.Content = LevelBox.Text;
         }
 
         private void Close_Clicked(object sender, EventArgs e)

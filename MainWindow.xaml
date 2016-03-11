@@ -5,38 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RPGLife_WPF"
         mc:Ignorable="d"
-        Title="RPG Life" Height="277" Width="1070" WindowStyle="None" ResizeMode="NoResize" Foreground="{x:Null}" AllowsTransparency="True">
+        Title="RPG Life" Height="138" Width="535" WindowStyle="None" ResizeMode="NoResize" Foreground="{x:Null}" AllowsTransparency="True">
     <Window.Background>
         <ImageBrush ImageSource="HPBar.png"/>
     </Window.Background>
     <Grid>
-        <Grid Margin="239,149,133,68" x:Name="MPSlider">
-            <Image x:Name="MPBar" HorizontalAlignment="Left" Height="59" VerticalAlignment="Top" Width="700" Margin="0,0,-2,0" Source="Mana.png"/>
+        <Grid Margin="120,73,65,35" x:Name="MPSlider" Width="350" Height="30">
+            <Image x:Name="MPBar" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="350" Margin="0,0,-2,0" Source="Mana.png"/>
         </Grid>
         <Label x:Name="MPStat" Margin="305,209,670,24" FontFamily="Impact" FontSize="24" RenderTransformOrigin="0.114,-0.34" Content="100/100"/>
         <Grid>
-            <Label x:Name="MPAt" Content="At" HorizontalAlignment="Left" Margin="216,230,0,21"/>
-            <Label x:Name="MPMax" Content="Max&#xD;&#xA;" HorizontalAlignment="Left" Margin="197,248,0,0" VerticalAlignment="Top" Height="29"/>
-            <TextBox x:Name="MPAtBox" HorizontalAlignment="Left" Height="23" Margin="238,230,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
-            <TextBox x:Name="MPMaxBox" HorizontalAlignment="Left" Height="23" Margin="229,254,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
+            <Label x:Name="MPAt" Content="At" HorizontalAlignment="Left" Margin="191,113,0,2" Width="22" Foreground="White"/>
+            <Label x:Name="MPMax" Content="Max&#xD;&#xA;" HorizontalAlignment="Left" Margin="265,109,0,0" VerticalAlignment="Top" Height="29" Foreground="White"/>
+            <TextBox x:Name="MPAtBox" HorizontalAlignment="Left" Height="23" Margin="211,113,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
+            <TextBox x:Name="MPMaxBox" HorizontalAlignment="Left" Height="23" Margin="302,113,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
         </Grid>
 
-        <Button x:Name="Close" Content="X" HorizontalAlignment="Left" Margin="140,44,0,0" VerticalAlignment="Top" Background="#FF494D4C" Foreground="White" BorderBrush="#FF494D4C"/>
+        <Button x:Name="Close" Content="X" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Background="#FF494D4C" Foreground="White" BorderBrush="#FF494D4C"/>
 
-        <Grid Margin="239,69,10,10" x:Name="HPSlider" Width="821" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Image x:Name="HPBar" HorizontalAlignment="Left" Height="59" VerticalAlignment="Top" Width="821" Margin="0,1,0,0" RenderTransformOrigin="0.5,0.5" Source="HP.png"/>
+        <Grid Margin="120,33,0,0" x:Name="HPSlider" Width="410" Height="32" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="HPBar" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="410" Margin="0,2,0,0" RenderTransformOrigin="0.5,0.5" Source="HP.png"/>
         </Grid>
         <Label x:Name="HPStat" Content="100/100" Margin="305,28,670,213" FontFamily="Impact" FontSize="24" RenderTransformOrigin="0.114,-0.34"/>
         <Grid x:Name="HPMaxMin">
-            <Label x:Name="HPAt" Content="At" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,0,0,0"/>
-            <Label x:Name="HPMax" Content="Max&#xD;&#xA;" HorizontalAlignment="Left" Margin="216,20,0,0" VerticalAlignment="Top" Height="29"/>
+            <Label x:Name="HPAt" Content="At" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,0,0,0" Background="#00000000" Foreground="White"/>
+            <Label x:Name="HPMax" Content="Max&#xD;&#xA;" HorizontalAlignment="Left" Margin="283,0,0,0" VerticalAlignment="Top" Height="29" Foreground="White"/>
             <TextBox x:Name="HPAtBox" HorizontalAlignment="Left" Height="23" Margin="227,3,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
-            <TextBox x:Name="HPMaxBox" HorizontalAlignment="Left" Height="23" Margin="248,26,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
+            <TextBox x:Name="HPMaxBox" HorizontalAlignment="Left" Height="23" Margin="315,3,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="51" Background="#FF494D4C"/>
         </Grid>
 
-        <Grid x:Name="Level">
-            <Label x:Name="LevelLabel" Content="Lv. 1" HorizontalAlignment="Left" Margin="112,114,0,0" VerticalAlignment="Top" Height="48" Width="114" FontFamily="Segoe UI Black" FontSize="32" FontWeight="Bold" FontStyle="Italic" Foreground="#FF00FFAE"/>
-            <TextBox x:Name="LevelBox" HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="55" Background="#FF494D4C" BorderBrush="#FF747474"/>
+        <Grid x:Name="Level" Margin="0,0,-1,0">
+            <Label x:Name="LevelLabel" Content="1" HorizontalAlignment="Left" Margin="55,42,0,0" VerticalAlignment="Top" Height="48" Width="57" FontFamily="Segoe UI Black" FontSize="32" FontWeight="Bold" FontStyle="Italic" Foreground="#FF00FFAE"/>
+            <TextBox x:Name="LevelBox" HorizontalAlignment="Left" Height="24" Margin="10,58,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="26" Background="#FF494D4C" BorderBrush="#FF747474"/>
         </Grid>
     </Grid>
 </Window>
