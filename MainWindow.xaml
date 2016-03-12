@@ -37,6 +37,7 @@
         <Grid x:Name="Level">
             <Label x:Name="LevelLabel" Content="Lv. 1" HorizontalAlignment="Left" Margin="112,114,0,0" VerticalAlignment="Top" Height="48" Width="114" FontFamily="Segoe UI Black" FontSize="32" FontWeight="Bold" FontStyle="Italic" Foreground="#FF00FFAE"/>
             <TextBox x:Name="LevelBox" HorizontalAlignment="Left" Height="23" Margin="10,128,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="55" Background="#FF494D4C" BorderBrush="#FF747474"/>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="62" Margin="424,0,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="646" SelectionBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontFamily="Beleren" FontSize="48"/>
         </Grid>
     </Grid>
 </Window>
