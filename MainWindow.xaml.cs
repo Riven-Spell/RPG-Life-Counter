@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RPGLife_WPF
 {
@@ -66,7 +56,7 @@ namespace RPGLife_WPF
             }
             double y = double.Parse(MPAtBox.Text);
             Thickness newM = MPSlider.Margin;
-            newM.Right = (350 - (350 * (y / x))) + 65;
+            newM.Right = (350 - (350 * (y / x))) + 63;
             MPSlider.Margin = newM;
             MPSlider.UpdateLayout();
         }
